@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Flasky{% endblock %}
+
+{% block page_content %}
+<body>
+    <h3>Input Song: </h3>
+    <div>{{ song }}</div>
+    <h3>Predicted Song Genre:</h3>
+    <div><strong>{{ predicted_price }}</strong>%).</div>
+</body>
+{% endblock %}

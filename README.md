@@ -18,7 +18,7 @@ Installation
 -------------
 * `git clone https://github.com/xinruili07/MusicGenreClassifierWebsite.git`
 * `pip install -r requirements.txt`
-* `brew install ffmpeg~
+* `brew install ffmpeg`
 * `python3 app.py`
 * *App will run on* `localhost:8080`
 

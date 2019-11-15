@@ -1,14 +1,10 @@
 import os
-import urllib.request
 from flask import Flask, flash, request, redirect, render_template, url_for, json
 from werkzeug.utils import secure_filename
 from flask import Flask
 
 import librosa
 import numpy as np
-from joblib import load
-import os
-from sklearn.preprocessing import StandardScaler
 from pydub import AudioSegment
 
 from os.path import join

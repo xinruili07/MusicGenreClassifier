@@ -23,7 +23,7 @@ Installation
 * *App will run on* `localhost:8080`
 
 ## Music Genre Classifier App
-The web application is written in Python using Flask. It uses a saved model (more details can be found at https://github.com/xinruili07/MusicGenreClassifier) for finding the genre of input song. 
+The web application is written in Python using Flask. It uses a saved model (more details can be found [MusicGenreClassifier](Models/README.md) for finding the genre of input song. 
 
 ## Results
 With 10 genre classes, we are getting a test accuracy of 77%

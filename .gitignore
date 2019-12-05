@@ -2,10 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.ipynb_checkpoints
-.genres
-.spectrograms
+
+Models/.ipynb_checkpoints
+Models/.genres
+Models/.spectrograms
 uploads
+.song.wav.icloud
 
 # C extensions
 *.so
